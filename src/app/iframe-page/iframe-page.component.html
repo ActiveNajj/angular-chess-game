@@ -1,0 +1,13 @@
+<div class="iframe-container">
+  <ngx-chess-board 
+    #board
+    [size]="400"
+    [darkTileColor]="'#769656'"
+    [lightTileColor]="'#eeeed2'"
+    [showCoords]="true"
+    [dragDisabled]="isDisabled"
+    [lightDisabled]="isLightDisabled"
+    [darkDisabled]="isDarkDisabled"
+    (moveChange)="onMoveChange($event)">
+  </ngx-chess-board>
+</div>

@@ -1,0 +1,48 @@
+.main-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.game-info {
+  margin: 20px 0;
+}
+
+.new-game-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.new-game-btn:hover {
+  background-color: #0056b3;
+}
+
+.boards-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.board-section {
+  flex: 1;
+  max-width: 400px;
+}
+
+.chess-iframe {
+  width: 100%;
+  height: 450px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .boards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
